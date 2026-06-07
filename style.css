@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.box {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.body {
+  background-color: #ffffff;
+}
+
+/* ---Header--- */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 107px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 24px;
+  color: #957554;
+  padding: 3px 10px;
+}
+
+.logo {
+  width: 190px;
+  height: 159px;
+}
+
+/* ---welcome section--- */
+
+.welcome-section {
+  background: url(./assets/welcome.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-bottom: 80px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 242px;
+  padding-bottom: 245px;
+  gap: 50px;
+}
+
+.welcome h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.welcome p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.welcome a {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 25px 133px;
+  color: #ffffff;
+  background-color: #dfaa5b;
+  border-radius: 10px;
+}
+
+/* ---rooms rates--- */
+
+.rooms-rates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 122px;
+}
+
+/* ---title--- */
+.rooms-rates-title h1 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #957554;
+}
+/* ---button--- */
+.rooms-rates-button h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #957554;
+}
+
+.rooms-rates-button a {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 24px 157px;
+  background-color: #dfaa5b;
+  border-radius: 10px;
+}
+
+.rooms-rates-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+
+/* ---cards--- */
+
+.rooms-rates-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rooms-rates-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 302px 125px 57px 125px;
+  gap: 19px;
+  border-radius: 10px;
+}
+.rooms-rates-card h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.rooms-rates-card a {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 24px 52px;
+  color: #ffffff;
+  background-color: #dfaa5b;
+  border-radius: 10px;
+}
+
+.card1 {
+  background: url(./assets/standart\ room.png);
+}
+
+.card2 {
+  background: url(./assets/standart\ room.png);
+}
+.card3 {
+  background: url(./assets/view\ room.png);
+}
+
+.card4 {
+  background: url(./assets/deluxe\ room.png);
+}
+
+/* ---footer--- */
+
+footer {
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 51px 123px 159px 55px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-nav a {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-info h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.footer-info a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
