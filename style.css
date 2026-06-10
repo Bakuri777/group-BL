@@ -211,3 +211,136 @@ footer {
   font-weight: 300;
   color: #ffffff;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 40px;
+  }
+
+  .welcome h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .rooms-rates-card {
+    padding: 220px 50px 40px;
+  }
+
+  .footer {
+    padding: 50px;
+    gap: 40px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 140px;
+    height: auto;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 20px;
+  }
+
+  .welcome {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 25px;
+  }
+
+  .welcome h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .welcome p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .welcome a {
+    padding: 18px 60px;
+    font-size: 18px;
+  }
+
+  .rooms-rates-title h1,
+  .rooms-rates-button h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .rooms-rates-card {
+    width: 90%;
+    padding: 220px 20px 30px;
+  }
+
+  .rooms-rates-card h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .rooms-rates-card a {
+    padding: 18px 40px;
+    font-size: 18px;
+  }
+
+  .rooms-rates-button a {
+    padding: 18px 60px;
+    font-size: 18px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+  .welcome h1 {
+    font-size: 30px;
+  }
+
+  .welcome p {
+    font-size: 16px;
+  }
+
+  .rooms-rates-card h2 {
+    font-size: 22px;
+  }
+
+  .rooms-rates-card {
+    padding: 180px 15px 25px;
+  }
+
+  .rooms-rates-button h2 {
+    font-size: 24px;
+  }
+
+  .rooms-rates-button a {
+    padding: 15px 40px;
+  }
+}
