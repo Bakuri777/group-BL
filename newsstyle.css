@@ -106,3 +106,120 @@
 .gallery-grid img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 1024px) {
+
+  .news-card {
+    gap: 30px;
+  }
+
+  .news-card-content h3 {
+    font-size: 30px;
+  }
+
+  .news-card-content p {
+    font-size: 24px;
+  }
+
+  .news-card-content a {
+    padding: 20px 70px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .gallery-grid img:first-child,
+  .gallery-grid img:nth-child(2),
+  .gallery-grid img:nth-child(3),
+  .gallery-grid img:nth-child(4) {
+    grid-area: auto;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .rooms-rates-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .news-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 25px;
+  }
+
+  .news-card img {
+    height: 300px;
+  }
+
+  .news-list:nth-of-type(2n) .news-card img {
+    order: 0;
+  }
+
+  .news-list:nth-of-type(2n) .news-card-content {
+    align-items: flex-start;
+  }
+
+  .news-list:nth-of-type(2n) .news-card-content p {
+    text-align: left;
+  }
+
+  .news-card-content {
+    gap: 20px;
+  }
+
+  .news-card-content h3 {
+    font-size: 28px;
+  }
+
+  .news-card-content p {
+    font-size: 18px;
+  }
+
+  .news-card-content a {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .gallery-grid img {
+    height: 250px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+  .news-card img {
+    height: 220px;
+  }
+
+  .news-card-content h3 {
+    font-size: 24px;
+  }
+
+  .news-card-content p {
+    font-size: 16px;
+  }
+
+  .news-card-content a {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .gallery-grid img {
+    height: 200px;
+  }
+}
