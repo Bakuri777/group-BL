@@ -8,7 +8,7 @@
 
     <div class="nav">
       <a href="#">Our Hotel</a>
-      <a href="#">Rooms & Rates</a>
+      <a href="./news.php">Rooms & Rates</a>
       <a href="#">Facilities</a>
       <a href="#">Contact Us</a>
     </div>

@@ -1,12 +1,3 @@
-<?php
-$rooms = [
-  ["title" => "Standard Twin Room", "class" => "card1"],
-  ["title" => "Standard Twin Room", "class" => "card2"],
-  ["title" => "Sea View Room", "class" => "card3"],
-  ["title" => "Deluxe Room", "class" => "card4"],
-];
-?>
-
 <section class="welcome-section">
   <div class="welcome box">
     <h1>WELCOME TO BON HOTEL</h1>
@@ -21,7 +12,7 @@ $rooms = [
   </div>
 
   <div class="rooms-rates-cards">
-    <?php foreach($rooms as $room){ ?>
+    <?php foreach($homeRooms as $room){ ?>
       <div class="rooms-rates-card <?php echo $room['class']; ?>">
         <h2><?php echo $room['title']; ?></h2>
         <a href="#">Check Rates</a>

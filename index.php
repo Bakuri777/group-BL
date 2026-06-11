@@ -8,6 +8,8 @@
   <link rel="shortcut icon" href="./assets/header logo.png" type="image/x-icon">
 </head>
 <body>
+  
+<?php include './data.php'; ?>
 
 <?php include './components/header.php'; ?>
 
